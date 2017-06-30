@@ -1,0 +1,14 @@
+.module_content {
+  margin: 0 auto;
+  /*text-align: center;*/
+}
+.pf_output_container img {
+  min-width: 98%;
+}
+.module_content img {
+  margin-top: 10px;
+  min-width: 98%;
+}
+.module_content p{
+  text-align: left;
+}

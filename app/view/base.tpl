@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>大厨</title>
+    <title>{{ data.home.title }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//cdn.bootcss.com/tether/1.4.0/css/tether.min.css" rel="stylesheet">
@@ -14,6 +14,7 @@
     {% endblock %}
   </head>
   <body>
+    {% include "./header/header.tpl" %}
     {% block content %}
     {% endblock %}
     <script src="//cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>

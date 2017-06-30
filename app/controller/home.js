@@ -5,10 +5,11 @@ module.exports = app => {
     * index() {
       const dataHome = {
         home: {
-          title: 'i am  Title',
+          title: '大厨',
+          selected: 'home',
         },
       };
-      yield this.ctx.render('index.tpl', dataHome);
+      yield this.render('index.tpl', dataHome);
     }
   }
   return HomeController;
